@@ -1,0 +1,1063 @@
+
+
+.header{
+    padding: 20px 0px;
+    background-color: #132031;
+    .col-lg-7{
+        font-size: 15px;
+        .icon{
+            border-left: 1px solid #06b3e5;
+            i{
+                padding: 0px 10px;
+                color: #06b3e5;
+                position: relative;
+                span{
+                    padding:0px 5px;
+                    color: white;
+                    &:hover{
+                        color: #06b3e5;
+                    }
+                }
+            }
+        }
+        .second{
+            border-right: 1px solid #06b3e5; ;
+            i{
+                padding: 0px 10px;
+                color: #06b3e5;
+                position: relative;
+                span{
+                    padding:0px 5px;
+                    color: white;
+                }
+                .ikinci{
+                    color: #06b3e5;
+                    cursor: pointer;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+       
+    }
+
+   .col-lg-5{
+       font-size: 15px;
+        i{
+            color: white;
+            padding:0px 5px;
+            transition: 0.5s;
+            &:hover{
+                color: #06b3e5;
+                cursor: pointer;
+            }
+        }
+        a{
+            color: white;
+            margin-left: 10px;
+            text-decoration: none;
+            padding: 5px 15px;
+            transition: 0.9s;
+            background-color: #06b3e5;
+            border: 1px solid #06b3e5;
+            border-radius: 20px;
+            font-weight: 600;
+            &:hover{
+                color: #06b3e5;
+                background-color: white;
+                border: 1px solid white;
+            }
+        }
+   }
+}
+
+.bawliq{
+    background-color: #fcfcfc;
+    .container{
+        .col-lg-10{
+            padding: 0%;
+            margin: 0%;
+            .dropdown{
+                position: relative;
+                display: inline-block;
+                font-size: 16px;
+                margin: 5px 20px;
+                &:hover{
+                    .dropbtn{
+                        color: #6c757d;
+                    }
+                    .drop-content{
+                        background-color:#fcfcfc;
+                        visibility: visible;
+                        top: 180%;
+                        transition: 0.2s;
+                    }
+                }
+                .drop-content{
+                    background-color: #778597;
+                    padding: 20px;
+                    position: absolute;
+                    min-width: 200px;
+                    top: 220%;
+                    left: 0%;
+                    visibility: hidden;
+                    transition: 0.2s;
+                    a{
+                        text-align:left;
+                        padding: 10px 0px;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        &:hover{
+                            color: #06b3e5;
+                        }
+                    }           
+                }
+                .different1{
+                    background-color: #778597;
+                    padding: 20px;
+                    position: absolute;
+                    min-width: 800px;
+                    top: 220%;
+                    left: -550%;
+                    visibility: hidden;
+                    transition: 0.2s;
+                    a{
+                        text-align:left;
+                        padding: 10px 0px;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        &:hover{
+                            color: #06b3e5;
+                        }
+                    }           
+                }
+                .different2{
+                    text-align: left;
+                    padding: 20px;
+                    position: absolute;
+                    min-width: 800px;
+                    top: 220%;
+                    left: -650%;
+                    visibility: hidden;
+                    background-color: #fcfcfc; 
+                    transition: 0.2s;
+                    a{
+                        text-align:left;
+                        padding: 10px 0px;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        &:hover{
+                            color: #06b3e5;
+                        }
+                    } 
+                    h6{
+                        color: #06b3e5;
+                    }          
+                }
+                .dropbtn{
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+
+}
+
+.phone-header{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    display: none;
+    .phone-icon1{
+        padding:10px 0px;
+        color: white;
+        background-color: #162b62;
+        text-align: center;
+    }
+    .phone-foto{
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .phone-icon2{
+        padding:5px 0px;
+        text-align: center;
+        i{
+            padding: 0px 10px;
+        }
+    }
+}
+@media (max-width: 576px) {
+      .phone-header{
+          display: block;
+      }
+      .header{
+          display: none;
+      }
+      .bawliq{
+          display: none;
+      }
+}
+
+.tablet-header{
+    background-color: #f2f2f2;
+    display: none;
+        .tablet-icon1{
+            padding:10px 0px;
+            color: white;
+            background-color: #162b62;
+            text-align: center;
+        }
+        .tablet-foto{
+            padding: 15px 0px;
+        }
+}
+@media (min-width: 576px) {
+    .tablet-header{
+        display: block;
+    }
+    .header{
+        display: none;
+    }
+    .bawliq{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .tablet-header{
+        display: none;
+    }
+    .phone-header{
+        display: none;
+    }
+    .header{
+        display: block;
+    }
+    .bawliq{
+        display:block;
+    }
+}
+.text{
+    background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/bg-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    p{
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .metn1{
+        color: white;
+        font-weight: 500;
+        font-size: 65px;
+        margin-bottom: 20px;
+    }
+    .metn2{
+        color: white;
+        font-weight: 500;
+        font-size: 65px;
+        margin-bottom: 20px;
+        display: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        transition: 0.5s;
+        background-color: #06b3e5;
+        border: 1px solid #06b3e5;
+        border-radius: 20px;
+        font-weight: 600;
+        &:hover{
+            text-decoration: none;
+            color: white;
+            background-color:transparent;
+            border: 1px solid white;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .text{
+        p{
+            font-size: 20px;
+        }
+        .metn1{
+            display: none;
+        }
+        .metn2{
+            display: block;
+            font-size: 40px;
+        }
+    }
+}
+
+.middle{
+    margin-top: -70px;
+    .box1{
+        background-color: #2382c4;
+        padding: 30px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        a{
+            font-size: 16px;
+            line-height: 30px;
+            padding: 10px 20px;
+            background-color: #398fca;
+            color: #ffffff;
+            border:3px solid #398fca;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: 0.7s;
+        }
+    }
+    .box2{
+        background-color: #2b56b8;
+        padding: 30px;
+        a{
+            font-size: 16px;
+            line-height: 30px;
+            padding: 10px 20px;
+            background-color: #4167bf;
+            color: #ffffff;
+            border:3px solid #4167bf;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: 0.7s;
+
+        }
+    }
+    .box3{
+        background-color: #162b62;
+        padding: 30px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        a{
+            font-size: 16px;
+            line-height: 30px;
+            padding: 10px 20px;
+            background-color: #2e4172;
+            color: #ffffff;
+            border:3px solid #2e4172;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: 0.7s;
+
+        }
+    }
+    .box-image{
+        color: white;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    p{
+        color: white;
+        padding: 20px 0px;
+    }
+    a{
+        &:hover{
+            border:3px solid white;
+        }
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .middle{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .middle{
+        margin-top: 70px;
+    }
+}
+.carter{
+    background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/Medical-team.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    h2{
+        font-size: 45px;
+        font-weight: 400;
+        color: #0a0a0a;
+    }
+    h3{
+        font-size: 20px;
+        color: #06b3e5;
+    }
+    p{
+        font-family: 'Open Sans';
+        font-size: 23px;
+        line-height: 34px;
+        font-style: italic;
+        color: #0a0000;
+        padding-top: 50px;
+        font-weight: 400;
+    }
+    img{
+        padding-left:70px;
+    }
+}
+@media (max-width: 576px) {
+    .carter{
+        h2{
+            font-size: 35px;
+        }
+        h3{
+            font-size: 18;
+        }
+        p{
+            font-style: normal;
+        }
+    }
+}
+
+.focus{
+    background-color:#fcfcfc;
+    padding:50px 0px;
+    h2{
+        font-size: 34px;
+        font-weight: 400;
+        color: #0a0a0a
+    }
+    p{
+        color: #06b3e5;
+    }
+}
+
+
+.primary{
+    background-color: #fcfcfc;
+    .box{
+        padding: 0px;
+        width: 100%;
+    }
+    span{
+        color: #292b36;
+        font-size: 24px;
+        position: relative;
+        cursor: pointer;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 0%;
+            height: 2px;
+            left: 0;
+            bottom: 0px;
+            background-color:#425cbb;
+            transition: 0.5s;
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            width: 0%;
+            height: 2px;
+            right: 0;
+            bottom: 0px;
+            background-color:#425cbb;
+            transition: 0.5s;
+        }
+        &:hover{
+            color: #6c757d;
+            &::after{
+                width: 50%;
+            }
+            &::before{
+                width: 50%;
+            }
+        }
+    }
+}
+
+
+
+.view{
+    background-color: #fcfcfc;
+    padding: 80px 0px;
+    h3{
+        font-family: 'Rubik', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: none;
+        text-decoration: none;
+    }
+    p{
+        font-family: 'Arimo', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: normal;
+        font-style: normal;
+        color: #0a0a0a;
+        padding-bottom: 40px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        transition: 0.5s;
+        background-color: #06b3e5;
+        border: 2px solid #06b3e5;
+        border-radius: 20px;
+        font-weight: 600;
+        &:hover{
+            text-decoration: none;
+            color: #06b3e5;
+            background-color:transparent;
+            border: 2px solid #06b3e5;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .view{
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    .view{
+        text-align: center;
+    }
+}
+
+.departments{
+    background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    .department-text{
+        h5{
+            color: white;
+            font-size: 24px;
+        }
+        p{
+            color: #06b3e5;
+            font-size: 20px;
+        }
+        i{
+            font-size: 30px;
+            color: white;
+            padding: 20px 5px;
+        }
+
+    }
+    .department-photo{
+        img{
+            border-radius: 10px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px 0px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .departments{
+        .box2{
+            display: none;
+        }
+        .box3{
+            display: none;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .departments{
+        .box3{
+            display: none;
+        }
+    }
+}
+.numbers{
+    background-color: #f2f2f2;
+    padding: 70px 0px;
+    h1{
+        color: #425cbb;
+    }
+    p{
+        color: #292b36;
+        font-size: 20px;
+    }
+}
+
+.recent{
+    background-color: #fcfcfc;
+    .recent-text{
+        h1{
+            font-size: 34px;
+            font-weight: 400;
+            color: #0a0a0a;
+        }
+        p{
+            color: #06b3e5;
+            font-size: 15px;
+        }
+    }
+    .recent-photo{
+        h1{
+            font-size: 20px !important;
+            font-weight: 400;
+            color: #425cbb;
+            padding: 10px 0px;
+            cursor: pointer;
+            &:hover{
+                color: #6c757d;
+            }
+        }
+        span{
+            color: #6c757d;
+            padding: 20px 0px;
+        }
+        .recent-box{
+            margin-bottom: 10px;
+            overflow: hidden;
+            img{
+                border-radius: 10px;
+                transition: 0.5s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+
+            }
+    }
+    }
+}
+
+@media (max-width: 576px) {
+    .recent-photo{
+        .box2{
+            display: none;
+        }
+        .box3{
+            display:none;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .recent-photo{
+        .box2{
+            display: none;
+        }
+        .box3{
+            display:none;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .recent-photo{
+        .box2{
+            display: none;
+        }
+    }
+}
+
+
+
+.backimg{
+    background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/2-paralax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -280%;
+    background-attachment: fixed;
+    padding: 200px 0px;
+    h1{
+        visibility: hidden;
+    }
+}
+@media (max-width: 576px) {
+    .backimg{
+        background-attachment: initial;
+    }
+}
+@media (max-width: 768px) {
+    .backimg{
+        background-attachment: initial;
+    }
+}
+
+@media (max-width: 992px) {
+    .backimg{
+        background-attachment: initial;
+    }
+}
+
+.patient{
+    background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/4.jpg);
+    .patient-text{
+        padding: 20px 0px;
+        p{
+            color: #06b3e5;
+            font-size: 20px;
+        }
+    }
+    .patient-middle{
+        i{
+            padding: 60px 0px;
+            color: white;
+            font-size: 24px;
+        }
+        img{
+            border-radius: 50%;
+        }
+        p{
+            color: white;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        h3{
+            color: #06b3e5;
+        }
+        h4{
+            color: white;
+
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .patient{
+        text-align: center;
+        .patient-middle{
+            p{
+                font-size: 20px;
+                font-weight: 400px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .patient{
+        text-align: center;
+        .patient-middle{
+            p{
+                font-size: 20px;
+                font-weight: 400px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .patient{
+        text-align: center;
+    }
+}
+.team{
+    padding: 30px 0px;
+    background-color: #fcfcfc;
+    .team-text{
+        h1{
+            padding: 30px 0px 0px 0px;
+        }
+        p{
+            color: #06b3e5;   
+        }
+    }
+    .col-lg-3{
+        .team-photo{
+            position: relative;
+            width: 220px;
+            margin: auto;
+            img{
+                border-radius: 50%;
+            }
+
+            .overlay{
+                transition: 0.5s;
+                position: absolute;
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: gray;
+                opacity: 0;
+            }
+            .team-icon{
+                text-align: center;
+                position: absolute;
+                transition: all 0.3s;
+                top: 80%;
+                left: 20%;
+                transform: translate(-50% -50%);
+                i{
+                    font-size: 20px;
+                    visibility: hidden;
+                    color: white;
+                    padding: 0px 5px;
+                    cursor: pointer;
+                    &:hover{
+                        color: #162b62
+                    }
+                }
+            }
+            &:hover{
+                .team-icon{
+                    top: 45%;
+                }
+                i{
+                    visibility: visible;
+                }
+                .overlay{
+                    opacity: 0.9;
+                }
+            }
+        }
+        .photo-text{
+            padding: 20px 0px;
+            h1{
+                color: #425cbb;
+                font-size: 24px;
+            }
+        }
+
+    }
+}
+
+.order{
+    background-color: #fcfcfc;
+    .order-photo{
+        background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/2-1.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        border-radius: 10px;
+        .photo-text3{
+            position: absolute;
+            top: 55%;
+            h2{
+                font-size: 20px;
+                color: white;
+                margin-bottom: 20px;
+            }
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: 0.5s;
+            background-color: #06b3e5;
+            border: 2px solid #06b3e5;
+            border-radius: 20px;
+            font-weight: 600;
+            &:hover{
+                text-decoration: none;
+                color: white;
+                background-color:transparent;
+                border: 2px solid white;
+            }
+        }
+        }
+
+    }
+    .stop{
+        background-color: #162b62;
+        border-radius: 10px;
+        h1{
+            color: white;
+            padding: 30px 0px 30px 15px;
+        }
+        .middle{
+            text-align: center;
+            padding: 65px 0px;
+            select{
+                padding: 11px 80px;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                border: none;
+            }
+            input{
+                padding: 10px 20px;
+                margin-bottom: 30px;
+                border-radius: 10px;
+                border: none;
+            }
+            a{
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                padding: 10px 100px;
+                transition: 0.5s;
+                background-color: #06b3e5;
+                border: 2px solid #06b3e5;
+                border-radius: 20px;
+                font-weight: 600;
+                &:hover{
+                    text-decoration: none;
+                    color: #06b3e5;
+                    background-color:transparent;
+                    border: 2px solid #06b3e5;
+                }
+            }
+        }
+
+    }
+    .order-list{
+        p{
+            font-size:30px;
+            color:black;
+            font-weight: 600;
+        }
+        a{
+            display: block;
+            color: #2382c4;
+            padding: 10px 0px;
+            list-style: none;
+      }
+    }
+}
+
+.partners{
+    padding: 20px 0px;
+    background-color: #fcfcfc;
+    i{
+        font-size: 24px;
+        padding-top: 5px;
+    }
+}
+@media (max-width: 576px) {
+    .partners{
+        text-align: center;
+        .box2,.box3,.box4{
+            display: none;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .partners{
+        text-align: center;
+        .box3,.box4{
+            display: none;
+        }
+    }
+}
+.subscribe{
+    background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+    h2{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #ffffff;
+        text-align: center;
+    }
+    p{
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+    }
+    .sub{
+        background-color: transparent;
+        border-radius: 20px;
+        border: 1px solid #162b62;
+        margin: auto;
+        padding: 10px 0px;
+        input{
+            background-color: transparent;
+            border:none;
+            outline: none;
+        }
+        a{
+            background-color:#162b62;
+            border: 1px solid #162b62;
+            border-radius: 20px;
+            text-align: right;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.call{
+    background-color: #162b62;
+    padding: 30px 0px;
+    p{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+        padding-top: 10px;
+    }
+    span{
+        color: #06b3e5;
+    }
+}
+
+.footer{
+    background-color: #132031;
+    padding: 30px 0px;
+        p{
+            color: white;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        a{
+            display: block;
+            color: #778597;
+            padding: 10px 0px;
+            &:hover{
+                text-decoration: none;
+                outline: none;
+                color: #06b3e5;
+            }
+        i{
+            color: #06b3e5;
+            span{
+                color: #778597;
+                padding-left: 5px;
+                &:hover{
+                    color: #06b3e5;
+                }
+            }
+        }
+    }
+}
+
+.lastfooter{
+    background-color: #132031;
+    padding: 10px 0px;
+    font-size: 14px;
+    border-top: 1px solid #778597;
+    a{
+        color: #778597;
+        &:hover{
+            outline: none;
+            text-decoration: none;
+            color: #778597;
+        }
+        span{
+            color: #778597;
+            &:hover{
+                color: #06b3e5;
+            }
+        }
+    }
+    .direct{
+        span{
+            color: #778597;
+            cursor: pointer;
+            &:hover{
+                color: #06b3e5;
+            }
+        }
+
+    }
+}
